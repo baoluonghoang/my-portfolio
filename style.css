@@ -31,6 +31,11 @@ nav{
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding: 5px 5%;
 }
+.logo{
+    font-family: fantasy;
+    color: #000000;
+    font-size: 22px;
+}
 /* nav ul{
     display:flex;
 }
@@ -45,11 +50,7 @@ nav ul li a:hover{
     border:none;
     color: rgba(0,0,0,0.2);
 }
-.logo{
-    font-family: fantasy;
-    color: #000000;
-    font-size: 22px;
-}
+
 .active{
     font-weight: bold;
     color: #2d2a2a;
