@@ -39,6 +39,8 @@ body{
     background-color: #f6f5f5;
     margin:0px;
     padding:0px;
+    height: 100%;
+    width: 100%;
 }
 section{
     width: 100%;
@@ -350,6 +352,7 @@ footer p:nth-child(2){
     width: 600px;
     color: #7e7d7d;
     text-align: center;
+    overflow: hidden;
 }
 .social-icons a{
     width: 40px;
@@ -422,6 +425,9 @@ footer p:nth-child(2){
     .box-container{
         max-width: auto;
         margin-left: 20%;
+    }
+    footer p:nth-child(2){
+        max-width: 90%;
     }
   }
 
