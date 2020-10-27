@@ -9,6 +9,32 @@ ul{
 a{
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
+/* .scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: red;
+    right:30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+} */
 body{
     background-color: #f6f5f5;
     margin:0px;
@@ -201,6 +227,8 @@ button:active{
 .services-text{
     width: 500px;
     margin:50px 0px;
+    max-height: auto;
+    overflow: hidden;
 }
 .box-1,.box-2,.box-3{
     width: 300px;
@@ -388,7 +416,8 @@ footer p:nth-child(2){
         border-bottom: 1px solid #FFFFFF;
     }
     .services{
-        padding-left: 0;
+        padding-top: 100px;
+        padding:0;
     }
     .box-container{
         max-width: auto;
