@@ -429,6 +429,9 @@ footer p:nth-child(2){
     footer p:nth-child(2){
         max-width: 90%;
     }
+    body{
+        max-width: 100%;
+    }
   }
 
   /*responsive menu*/
